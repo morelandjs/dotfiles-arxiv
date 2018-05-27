@@ -1,0 +1,21 @@
+#
+# ~/.gitconfig
+#
+
+[user]
+	name = J. Scott Moreland
+	email = morelandjs@gmail.com
+[core]
+	editor = vim
+[merge]
+	tool = gvimdiff
+[color]
+	ui = true
+[grep]
+	lineNumber = true
+[push]
+	default = simple
+[github]
+	user = morelandjs
+[commit]
+	verbose = true

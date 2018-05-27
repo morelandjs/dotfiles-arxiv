@@ -1,0 +1,38 @@
+#
+# ~/.gitconfig
+#
+
+[user]
+	name = Scott Moreland
+	email = morelandjs@gmail.com
+[core]
+	editor = vim
+[merge]
+	tool = gvimdiff
+[color]
+	ui = true
+[alias]
+	c = commit
+	s = status
+	b = branch
+	d = diff
+	a = add
+	ch = checkout
+	l = log
+	dc = diff --cached
+	h = help
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+[grep]
+	lineNumber = true
+[push]
+	default = simple
+[github]
+	user = morelandjs
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	required = true
+	process = git-lfs filter-process
+[commit]
+	verbose = true

@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/jsm55/Scratch/sample'
+let g:netrw_dirhist_2='/nethome/jsm55/Research/xenon-prediction/plots'
+let g:netrw_dirhist_3='/nethome/jsm55/Research/hic-param-est-qm18/src'
+let g:netrw_dirhist_4='/nethome/jsm55/Research/xenon-prediction/model_output'
+let g:netrw_dirhist_5='/nethome/jsm55/Research/hic-param-est-qm18/mcmc'

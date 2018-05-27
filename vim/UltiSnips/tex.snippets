@@ -1,0 +1,49 @@
+snippet $$ "inline math" iA
+$$1$
+endsnippet
+
+snippet () "parentheses" iA
+($1)
+endsnippet
+
+snippet [] "brackets" iA
+[$1]
+endsnippet
+
+snippet {} "braces" iA
+{$1}
+endsnippet
+
+snippet <> "angle brackets" iA
+\langle $1 \rangle
+endsnippet
+
+snippet __ "subscript" iA
+_{$1}
+endsnippet
+
+snippet ^^ "superscript" iA
+^{$1}
+endsnippet
+
+snippet "" "quotes" iA
+\`\`$1''
+endsnippet
+
+snippet frame "frame environment" b
+\begin{frame}{${1:title}}
+	$0
+\end{frame}
+endsnippet
+
+snippet cols "columns environment" b
+\begin{columns}
+	\column{${1:.5}\textwidth}
+	$0
+\end{columns}
+endsnippet
+
+snippet col "column" b
+\column{${1:.5}\textwidth}
+$0
+endsnippet
