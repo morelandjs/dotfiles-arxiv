@@ -5,7 +5,7 @@
 # path
 typeset -U path
 CONDA_PREFIX=$HOME/miniconda3
-path=(~/bin ~/.local/bin $CONDA_PREFIX/bin $(ruby -rubygems -e "puts Gem.user_dir")/bin $path)
+path=(~/bin ~/.local/bin $CONDA_PREFIX/bin $(ruby -r rubygems -e "puts Gem.user_dir")/bin $path)
 
 # CMAKE prefix path
 export CMAKE_PREFIX_PATH=/usr
