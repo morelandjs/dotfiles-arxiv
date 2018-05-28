@@ -23,7 +23,7 @@ bindsym $mod+b border toggle
 bindsym $mod+Return exec --no-startup-id urxvtc
 
 # program launcher
-bindsym $mod+d exec --no-startup-id ~/.local/bin/j4-dmenu-desktop
+bindsym $mod+d exec --no-startup-id j4-dmenu-desktop
 
 # kill focused window
 bindsym $mod+Shift+q kill
